@@ -11,12 +11,12 @@
 */
 
 /* @section core */
-body, html {
+/*body, html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
   margin: 0;
   padding: 0;
-}
+}*/
 
 #wiki-wrapper {
   margin: 0 auto;
@@ -24,26 +24,14 @@ body, html {
   width: 100%;
 }
 
-@media all and (min-width: 940px) {
-  #wiki-wrapper {
-    max-width: 920px;
-    padding-left:20px;
-    padding-right:20px;
-  }
-}
-
-a:link {
-  color: #4183c4;
-  text-decoration: none;
-}
-
-a:hover, a:visited {
-  color: #4183c4;
-  text-decoration: underline;
-}
-
 
 /* @section head */
+
+.mdl-layout__header {
+  color: #222 !important;
+  background-color: transparent;
+}
+
 #head {
   margin: 1em 0 0;
   padding: 0;
